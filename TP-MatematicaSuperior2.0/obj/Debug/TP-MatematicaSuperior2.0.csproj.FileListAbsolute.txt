@@ -40,3 +40,16 @@ C:\Users\usuario\Desktop\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\T
 C:\Users\usuario\Desktop\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.application
 C:\Users\usuario\Desktop\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.exe
 C:\Users\usuario\Desktop\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.pdb
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\bin\Debug\TP-MatematicaSuperior2.0.exe.config
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.exe
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.pdb
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\bin\Debug\TP-MatematicaSuperior2.0.exe.manifest
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\bin\Debug\TP-MatematicaSuperior2.0.application
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\bin\Debug\TP-MatematicaSuperior2.0.exe
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\bin\Debug\TP-MatematicaSuperior2.0.pdb
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Form1.resources
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Properties.Resources.resources
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.csproj.GenerateResource.Cache
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.exe.manifest
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.application

@@ -90,5 +90,30 @@ namespace TP_MatematicaSuperior2._0
             return this;
         }
 
+        public void sumBinom(Complex num)
+        {
+            this.a = a + num.getA();
+            this.b = b + num.getB();
+        }
+
+        public void resBinom(Complex num)
+        {
+            this.a = a - num.getA();
+            this.b = b - num.getB();
+        }
+
+        public void prodBinom(Complex num)
+        {
+            double newa = a * num.getA() - (b * num.getB());
+            double newb = a * num.getB() + (b * num.getA());
+            this.a = newa;
+            this.b = newb;
+        }
+
+        public bool isEmpty()
+        {
+            return (this.a == null || this.b == null);
+        }
+
     }
 }

@@ -53,3 +53,5 @@ C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperi
 C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.csproj.GenerateResource.Cache
 C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.exe.manifest
 C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.application
+C:\Users\usuario\Desktop\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Form2.resources
+C:\Users\usuario\Desktop\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Form3.resources

@@ -3,20 +3,20 @@
   <assemblyIdentity name="TP-MatematicaSuperior2.0.application" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="TP-MatematicaSuperior2.0" asmv2:product="TP-MatematicaSuperior2.0" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true">
-    <deploymentProvider codebase="http://ivan-pc/TP-MatematicaSuperior2.0/TP-MatematicaSuperior2.0.application" />
+    <deploymentProvider codebase="http://desktop-dcsbik0/TP-MatematicaSuperior2.0/TP-MatematicaSuperior2.0.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="TP-MatematicaSuperior2.0.exe.manifest" size="3625">
+    <dependentAssembly dependencyType="install" codebase="TP-MatematicaSuperior2.0.exe.manifest" size="3584">
       <assemblyIdentity name="TP-MatematicaSuperior2.0.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zPWzaV4jyNQBi83uDyXoggk3nRYsNigTBuNZm3l2OMc=</dsig:DigestValue>
+        <dsig:DigestValue>WAhwCV8Rd1j6JL1SvkG0br2gAqBLLOksnfxOnk7pHZ0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

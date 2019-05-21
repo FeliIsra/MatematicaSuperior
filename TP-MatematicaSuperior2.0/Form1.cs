@@ -92,5 +92,12 @@ namespace TP_MatematicaSuperior2._0
             f3.Show();
             this.Hide();
         }
+
+        private void OperacionesAvanzadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 f4 = new Form4();
+            f4.Show();
+            this.Hide();
+        }
     }
 }

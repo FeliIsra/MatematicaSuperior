@@ -20,21 +20,25 @@ namespace TP_MatematicaSuperior2._0
         private void BtnSumar_Click(object sender, EventArgs e)
         {
             Complex miComplex = new Complex(0, 0);
-            
-           miComplex.setPolar(Convert.ToDouble(txt1.Text), Convert.ToDouble(txt2.Text));
+            miComplex.setPolar(Convert.ToDouble(txt1.Text), Convert.ToDouble(txt2.Text));
             miComplex.polarToBinomial();
-            Complex resp = miComplex.addComplex(new Complex(Convert.ToDouble(txt3.Text), Convert.ToDouble(txt4.Text)));
+            Complex miComplex2 = new Complex(0, 0);
+            miComplex2.setPolar(Convert.ToDouble(txt3.Text), Convert.ToDouble(txt4.Text));
+            miComplex2.polarToBinomial();
+            Complex resp = miComplex.addComplex(miComplex2);
             resp.binomialToPolar();
-            label1.Text = "["+resp.getModulo() + " , " + resp.getArgumento() + "]";
+            label1.Text = "[" + resp.getModulo() + " , " + resp.getArgumento() + "]";
         }
 
         private void BtnRestar_Click(object sender, EventArgs e)
         {
             Complex miComplex = new Complex(0, 0);
-
             miComplex.setPolar(Convert.ToDouble(txt1.Text), Convert.ToDouble(txt2.Text));
             miComplex.polarToBinomial();
-            Complex resp = miComplex.substractComplex(new Complex(Convert.ToDouble(txt3.Text), Convert.ToDouble(txt4.Text)));
+            Complex miComplex2 = new Complex(0, 0);
+            miComplex2.setPolar(Convert.ToDouble(txt3.Text), Convert.ToDouble(txt4.Text));
+            miComplex2.polarToBinomial();
+            Complex resp = miComplex.substractComplex(miComplex2);
             resp.binomialToPolar();
             label1.Text = "[" + resp.getModulo() + " , " + resp.getArgumento() + "]";
         }
@@ -83,6 +87,13 @@ namespace TP_MatematicaSuperior2._0
         {
             Form1 f1 = new Form1();
             f1.Show();
+            this.Hide();
+        }
+
+        private void OperacionesAvanzadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 f4 = new Form4();
+            f4.Show();
             this.Hide();
         }
     }

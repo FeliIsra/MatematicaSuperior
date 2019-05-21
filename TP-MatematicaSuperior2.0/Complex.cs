@@ -70,7 +70,7 @@ namespace TP_MatematicaSuperior2._0
                 {
                     if(this.a < 0 && this.b >= 0)
                     {
-                        this.argumento = Math.Atan2(this.b, -this.a) + 2 * Math.PI;
+                        this.argumento = Math.Atan2(this.b, -this.a) + Math.PI / 2;
                     } else if(this.a < 0 && this.b < 0)
                     {
                         this.argumento = Math.Atan2(-this.b, -this.a) + Math.PI;
@@ -142,6 +142,20 @@ namespace TP_MatematicaSuperior2._0
             double xx = (_complex1.a * _complex2.a + _complex1.b * _complex2.b) / (Math.Pow(_complex2.a, 2) + Math.Pow(_complex2.b, 2));
             double yy = (_complex1.b * _complex2.a - _complex1.a * _complex2.b) / (Math.Pow(_complex2.a, 2) + Math.Pow(_complex2.b, 2));
             return new Complex(xx, yy);
+        }
+
+        public Complex potencia(Double n)
+        {
+            Complex resp = new Complex(0, 0);
+            resp.setPolar(Math.Pow(this.modulo, n),this.argumento * n);
+            return resp;
+        }
+
+        public Complex raiz(Double n)
+        {
+            Complex resp = new Complex(0, 0);
+            resp.setPolar(Math.Pow(this.modulo, (1 / n)), (this.argumento) / n );
+            return resp;
         }
 
         public Complex conjugate(Complex complex)

@@ -68,5 +68,11 @@ namespace TP_MatematicaSuperior2._0
             this.Hide();
         }
 
+        private void OperacionesAvanzadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 f4 = new Form4();
+            f4.Show();
+            this.Hide();
+        }
     }
 }

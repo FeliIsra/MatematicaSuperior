@@ -33,6 +33,7 @@
             this.binomialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.polarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nCOMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.operacionesAvanzadasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnDividir = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -47,7 +48,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.operacionesAvanzadasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnRestar = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,7 +74,7 @@
             this.modoDeCalcularToolStripMenuItem.Name = "modoDeCalcularToolStripMenuItem";
             this.modoDeCalcularToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.modoDeCalcularToolStripMenuItem.Text = "Modo de calcular";
-            this.modoDeCalcularToolStripMenuItem.Click += new System.EventHandler(this.ModoDeCalcularToolStripMenuItem_Click);
+           
             // 
             // binomialToolStripMenuItem
             // 
@@ -94,6 +95,13 @@
             this.nCOMToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.nCOMToolStripMenuItem.Text = "NCOM";
             this.nCOMToolStripMenuItem.Click += new System.EventHandler(this.NCOMToolStripMenuItem_Click);
+            // 
+            // operacionesAvanzadasToolStripMenuItem
+            // 
+            this.operacionesAvanzadasToolStripMenuItem.Name = "operacionesAvanzadasToolStripMenuItem";
+            this.operacionesAvanzadasToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.operacionesAvanzadasToolStripMenuItem.Text = "Operaciones Avanzadas";
+            this.operacionesAvanzadasToolStripMenuItem.Click += new System.EventHandler(this.OperacionesAvanzadasToolStripMenuItem_Click);
             // 
             // btnDividir
             // 
@@ -229,12 +237,15 @@
             this.label7.TabIndex = 30;
             this.label7.Text = "[";
             // 
-            // operacionesAvanzadasToolStripMenuItem
+            // btnRestar
             // 
-            this.operacionesAvanzadasToolStripMenuItem.Name = "operacionesAvanzadasToolStripMenuItem";
-            this.operacionesAvanzadasToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.operacionesAvanzadasToolStripMenuItem.Text = "Operaciones Avanzadas";
-            this.operacionesAvanzadasToolStripMenuItem.Click += new System.EventHandler(this.OperacionesAvanzadasToolStripMenuItem_Click);
+            this.btnRestar.Location = new System.Drawing.Point(274, 64);
+            this.btnRestar.Name = "btnRestar";
+            this.btnRestar.Size = new System.Drawing.Size(75, 23);
+            this.btnRestar.TabIndex = 33;
+            this.btnRestar.Text = "RESTAR";
+            this.btnRestar.UseVisualStyleBackColor = true;
+            this.btnRestar.Click += new System.EventHandler(this.BtnRestar_Click_1);
             // 
             // Form3
             // 
@@ -242,6 +253,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(372, 178);
+            this.Controls.Add(this.btnRestar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
@@ -289,5 +301,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ToolStripMenuItem operacionesAvanzadasToolStripMenuItem;
+        private System.Windows.Forms.Button btnRestar;
     }
 }

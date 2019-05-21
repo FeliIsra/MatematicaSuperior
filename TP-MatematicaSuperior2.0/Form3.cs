@@ -30,7 +30,7 @@ namespace TP_MatematicaSuperior2._0
             label1.Text = "[" + resp.getModulo() + " , " + resp.getArgumento() + "]";
         }
 
-        private void BtnRestar_Click(object sender, EventArgs e)
+        private void BtnRestar_Click_1(object sender, EventArgs e)
         {
             Complex miComplex = new Complex(0, 0);
             miComplex.setPolar(Convert.ToDouble(txt1.Text), Convert.ToDouble(txt2.Text));
@@ -71,11 +71,6 @@ namespace TP_MatematicaSuperior2._0
             label1.Text = "[" + resp.getModulo() + " , " + resp.getArgumento() + "]";
         }
 
-        private void ModoDeCalcularToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-         
-        }
-
         private void BinomialToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form2 f2 = new Form2();
@@ -96,5 +91,7 @@ namespace TP_MatematicaSuperior2._0
             f4.Show();
             this.Hide();
         }
+
+        
     }
 }

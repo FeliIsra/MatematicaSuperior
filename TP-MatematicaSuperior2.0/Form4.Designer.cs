@@ -45,6 +45,7 @@
             this.polarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nCOMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblRta = new System.Windows.Forms.Label();
+            this.operacionesAvanzadasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -165,7 +166,8 @@
             this.modoDeCalcularToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.binomialToolStripMenuItem,
             this.polarToolStripMenuItem,
-            this.nCOMToolStripMenuItem});
+            this.nCOMToolStripMenuItem,
+            this.operacionesAvanzadasToolStripMenuItem});
             this.modoDeCalcularToolStripMenuItem.Name = "modoDeCalcularToolStripMenuItem";
             this.modoDeCalcularToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.modoDeCalcularToolStripMenuItem.Text = "Modo de calcular";
@@ -173,20 +175,23 @@
             // binomialToolStripMenuItem
             // 
             this.binomialToolStripMenuItem.Name = "binomialToolStripMenuItem";
-            this.binomialToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.binomialToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.binomialToolStripMenuItem.Text = "Binomial";
+            this.binomialToolStripMenuItem.Click += new System.EventHandler(this.BinomialToolStripMenuItem_Click);
             // 
             // polarToolStripMenuItem
             // 
             this.polarToolStripMenuItem.Name = "polarToolStripMenuItem";
-            this.polarToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.polarToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.polarToolStripMenuItem.Text = "Polar";
+            this.polarToolStripMenuItem.Click += new System.EventHandler(this.PolarToolStripMenuItem_Click);
             // 
             // nCOMToolStripMenuItem
             // 
             this.nCOMToolStripMenuItem.Name = "nCOMToolStripMenuItem";
-            this.nCOMToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.nCOMToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.nCOMToolStripMenuItem.Text = "NCOM";
+            this.nCOMToolStripMenuItem.Click += new System.EventHandler(this.NCOMToolStripMenuItem_Click);
             // 
             // lblRta
             // 
@@ -196,6 +201,12 @@
             this.lblRta.Size = new System.Drawing.Size(64, 13);
             this.lblRta.TabIndex = 19;
             this.lblRta.Text = "Respuesta: ";
+            // 
+            // operacionesAvanzadasToolStripMenuItem
+            // 
+            this.operacionesAvanzadasToolStripMenuItem.Name = "operacionesAvanzadasToolStripMenuItem";
+            this.operacionesAvanzadasToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.operacionesAvanzadasToolStripMenuItem.Text = "Operaciones Avanzadas";
             // 
             // Form4
             // 
@@ -244,5 +255,6 @@
         private System.Windows.Forms.ToolStripMenuItem polarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nCOMToolStripMenuItem;
         private System.Windows.Forms.Label lblRta;
+        private System.Windows.Forms.ToolStripMenuItem operacionesAvanzadasToolStripMenuItem;
     }
 }

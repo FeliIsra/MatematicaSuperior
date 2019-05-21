@@ -36,7 +36,7 @@ namespace TP_MatematicaSuperior2._0
                 Complex miNum = new Complex(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text));
                 miNum.binomialToPolar();
                 double arg = miNum.getArgumento() / Math.PI;
-                lbl_resultado.Text = "[    " + miNum.getModulo().ToString("N2") + " , " + (arg).ToString("N2") + " π" + "]";
+                lbl_resultado.Text += "[    " + Math.Round(miNum.getModulo(),2).ToString() + " , " + Math.Round((arg),2).ToString() + " π" + "]";
             }
            // textBox1.Text = "";
            // textBox2.Text = "";
@@ -53,7 +53,7 @@ namespace TP_MatematicaSuperior2._0
                 Complex miNum = new Complex(0,0);
                 miNum.setPolar(Convert.ToDouble(textBox3.Text), Convert.ToDouble(textBox4.Text));
                 miNum.polarToBinomial();
-                lbl_resultado.Text = Math.Round(miNum.getA()).ToString("N3") + " + " + Math.Round(miNum.getB()).ToString("N3") + " j";
+                lbl_resultado.Text += Math.Round(miNum.getA(),2).ToString() + " + " + Math.Round(miNum.getB(),2).ToString() + " j";
             }
         }
 

@@ -54,7 +54,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(294, 11);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 42);
             this.button1.TabIndex = 0;
@@ -64,8 +64,8 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(294, 77);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(294, 57);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(103, 40);
             this.button2.TabIndex = 1;
@@ -76,7 +76,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(194, 23);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(29, 20);
             this.textBox1.TabIndex = 4;
@@ -84,7 +84,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(242, 23);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(25, 20);
             this.textBox2.TabIndex = 5;
@@ -126,13 +126,14 @@
             this.lbl_resultado.Location = new System.Drawing.Point(28, 111);
             this.lbl_resultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_resultado.Name = "lbl_resultado";
-            this.lbl_resultado.Size = new System.Drawing.Size(0, 13);
+            this.lbl_resultado.Size = new System.Drawing.Size(66, 13);
             this.lbl_resultado.TabIndex = 9;
+            this.lbl_resultado.Text = "Conversion: ";
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(181, 69);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(33, 20);
             this.textBox3.TabIndex = 10;
@@ -140,7 +141,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(227, 69);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(37, 20);
             this.textBox4.TabIndex = 11;
@@ -259,7 +260,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "NCOM";
             this.menuStrip1.ResumeLayout(false);

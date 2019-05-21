@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TP-MatematicaSuperior2.0.exe" size="30720">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TP-MatematicaSuperior2.0.exe" size="31232">
       <assemblyIdentity name="TP-MatematicaSuperior2.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/Nh4UktUv2zMGFeQP5EKXvyjp82/VqHMxDBpf0kFGiA=</dsig:DigestValue>
+        <dsig:DigestValue>eZ/JjBdqAxv/KiZpPeTHq0d0RacPP45zb+ghp+/KGWw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -46,14 +46,14 @@ namespace TP_MatematicaSuperior2._0
                     miComplex.binomialToPolar();
                     pot = miComplex.potencia(n);
                     pot.polarToBinomial();
-                    lblRta.Text += Math.Round(pot.getA()).ToString() + " " + Math.Round(pot.getB()).ToString() + "j";
+                    lblRta.Text += Math.Round(pot.getA(),2).ToString() + " " + Math.Round(pot.getB(),2).ToString() + "j";
                 }
                 else
                 {
                     miComplex.setPolar(Convert.ToDouble(txtA1.Text), Convert.ToDouble(txtB1.Text));
                     pot = miComplex.potencia(n);
                     arg = pot.getArgumento() / Math.PI;
-                    lblRta.Text += "[" + pot.getModulo() + " , " + arg + " π" + "]";
+                    lblRta.Text += "[" + Math.Round(pot.getModulo(),2) + " , " + Math.Round(arg,2) + " π" + "]";
                 }
 
             }
@@ -97,20 +97,16 @@ namespace TP_MatematicaSuperior2._0
                 {
                     miComplex.setBinomial(Convert.ToDouble(txtA1.Text), Convert.ToDouble(txtB1.Text));
                     miComplex.binomialToPolar();
-                    MessageBox.Show(miComplex.getModulo().ToString() + " ; " + miComplex.getArgumento().ToString());
                     raiz = miComplex.raiz(n);
-                    MessageBox.Show(raiz.getModulo().ToString() + " ; " + raiz.getArgumento().ToString());
                     raiz.polarToBinomial();
-                    MessageBox.Show(raiz.getA().ToString() + " + " + raiz.getB().ToString() + "j");
-                    //lblRta.Text += Math.Round(raiz.getA(),2).ToString() + " " + Math.Round(raiz.getB(),2).ToString() + "j";
-                    lblRta.Text = Math.Round(raiz.getA()).ToString("N2") + " + " + Math.Round(raiz.getB()).ToString("N2") + " j";
+                    lblRta.Text = Math.Round(raiz.getA(),2).ToString() + " + " + Math.Round(raiz.getB(),2).ToString() + " j";
                 }
                 else
                 {
                     miComplex.setPolar(Convert.ToDouble(txtA1.Text), Convert.ToDouble(txtB1.Text));
                     raiz = miComplex.raiz(n);
                     arg = raiz.getArgumento() / Math.PI;
-                    lblRta.Text += "[" + Math.Round(raiz.getModulo()).ToString() + " , " + Math.Round(arg).ToString() + " π" + "]";
+                    lblRta.Text += "[" + Math.Round(raiz.getModulo(),2).ToString() + " , " + Math.Round(arg,2).ToString() + " π" + "]";
                 }
 
             }

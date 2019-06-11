@@ -13,10 +13,12 @@ namespace TP_MatematicaSuperior2._0
         double modulo = 0;
         double argumento = 0;
 
-        public Complex (double _a, double _b)
+        public Complex (double _a, double _b, double _modulo, double _argumento)
         {
             a = _a;
             b = _b;
+            modulo = _modulo;
+            argumento = _argumento;
         }
     
         

@@ -10,31 +10,42 @@ namespace TP_MatematicaSuperior2._0
 
         string tipo = "";
 
-        public string getTipo
+        public string getTipo()
         {
-            get { return tipo; }
-            set { tipo = value; }
+            return tipo;
+        }
+        public void setTipo(string value){
+             tipo = value;
         }
         double amplitud = 0;
 
-        public double getAmplitud
+        public double getAmplitud()
         {
-            get { return amplitud; }
-            set { amplitud = value; }
+            return amplitud;
+        }
+        public void setAmplitud(double value)
+        {
+            amplitud = value;
         }
         double frecuencia = 0;
 
-        public double getFrecuencia
+        public double getFrecuencia()
         {
-            get { return frecuencia; }
-            set { frecuencia = value; }
+            return frecuencia;
+        }
+        public void setFrecuencia(double value)
+        {
+            frecuencia = value;
         }
         double angulo = 0;
 
-        public double getAngulo
+        public double getAngulo()
         {
-            get { return angulo; }
-            set { angulo = value; }
+            return angulo;
+        }
+        public void setAngulo(double value)
+        {
+            angulo = value;
         }
 
         public Fasor(string  _tipo, double _amplitud, double _frecuencia, double _angulo)
@@ -47,7 +58,7 @@ namespace TP_MatematicaSuperior2._0
 
         public Complex convertirAComplejo(Fasor miFasor)
         {
-            return new Complex(0, 0, miFasor.amplitud, miFasor.angulo);
+            return new Complex(0, 0, miFasor.getAmplitud(), miFasor.getAngulo());
             
         }
 
@@ -57,30 +68,38 @@ namespace TP_MatematicaSuperior2._0
             {
                 Complex unComplejo = convertirAComplejo(unFasor);
                 Complex otroComplejo = convertirAComplejo(otroFasor);
+                unComplejo.polarToBinomial();
+                otroComplejo.polarToBinomial();
 
-                unComplejo.addComplex(otroComplejo);    
+                double amp = Math.Sqrt(Math.Pow(unFasor.getAmplitud(), 2) + Math.Pow(otroFasor.getAmplitud(), 2));
+                double arg = Math.Atan(unComplejo.getB() / otroComplejo.getB());
 
-                return new Fasor(unFasor.tipo, unComplejo.getModulo(), unFasor.frecuencia, unComplejo.getArgumento());
+                return new Fasor(unFasor.tipo, amp, unFasor.frecuencia, arg);
             } else
             {
                 if (unFasor.frecuencia == otroFasor.frecuencia && unFasor.tipo != otroFasor.tipo)
                 {
-                    if (unFasor.tipo == "sen")
+                    if (unFasor.getTipo() == "sen")
                     {
-                        unFasor.tipo = "cos";
-                        unFasor.angulo -= Math.PI / 2;
+                        unFasor.setTipo("cos");
+                        unFasor.setAngulo(unFasor.getAngulo() - (Math.PI / 2));
                     }
                     else
                     {
-                        otroFasor.tipo = "cos";
-                        otroFasor.angulo -= Math.PI / 2;
+                        otroFasor.setTipo("cos");
+                        otroFasor.setAngulo(otroFasor.getAngulo() - (Math.PI / 2));
                     }
                     Complex unComplejo = convertirAComplejo(unFasor);
                     Complex otroComplejo = convertirAComplejo(otroFasor);
+                    unComplejo.polarToBinomial();
+                    otroComplejo.polarToBinomial();
 
-                    unComplejo.addComplex(otroComplejo);
+                    Complex suma = unComplejo.addComplex(otroComplejo);
+                    /*double amp = Math.Sqrt(Math.Pow(unFasor.getAmplitud(), 2) + Math.Pow(otroFasor.getAmplitud(), 2));
+                    double arg = Math.Atan(otroComplejo.getB() / unComplejo.getB());*/
+                    suma.binomialToPolar();
 
-                    return new Fasor(unFasor.tipo, unComplejo.getModulo(), unFasor.frecuencia, unComplejo.getArgumento());
+                    return new Fasor(unFasor.getTipo(), suma.getModulo(), unFasor.getFrecuencia(), suma.getArgumento());
                 }
                 else
                 {

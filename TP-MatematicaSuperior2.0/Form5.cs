@@ -87,20 +87,20 @@ namespace TP_MatematicaSuperior2._0
                 && txtFrecuencia1.TextLength != 0 && txtFrecuencia2.TextLength != 0
                 && txtAmp1.TextLength != 0 && txtAmp2.TextLength != 0)
             {
-                Fasor fasor1 = new Fasor(comboBox1.SelectedText,
+                Fasor fasor1 = new Fasor(comboBox1.SelectedItem.ToString(),
                                         Convert.ToDouble(txtAmp1.Text),
                                         Convert.ToDouble(txtFrecuencia1.Text),
                                         Convert.ToDouble(txtAngulo1.Text));
 
-                Fasor fasor2 = new Fasor(comboBox2.SelectedText,
+                Fasor fasor2 = new Fasor(comboBox2.SelectedItem.ToString(),
                                         Convert.ToDouble(txtAmp2.Text),
                                         Convert.ToDouble(txtFrecuencia2.Text),
                                         Convert.ToDouble(txtAngulo2.Text));
 
                 Fasor resultado = fasor1.sumaDeFasores(fasor1, fasor2);
-                if (resultado.getTipo != "no")
+                if (resultado.getTipo() != "no")
                 {
-                    lblRes.Text = resultado.getAmplitud.ToString() + resultado.getTipo.ToString() +"( "+ resultado.getAmplitud.ToString() + "t + "+  resultado.getAngulo + " )";
+                    lblRes.Text = resultado.getAmplitud().ToString() + resultado.getTipo() +"( "+ resultado.getFrecuencia().ToString() + "t + "+  resultado.getAngulo().ToString() + " )";
                 }
                 else
                 {

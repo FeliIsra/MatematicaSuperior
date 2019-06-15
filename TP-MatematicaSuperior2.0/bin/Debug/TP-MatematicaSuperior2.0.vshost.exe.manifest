@@ -42,24 +42,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TP-MatematicaSuperior2.0.exe" size="17408">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TP-MatematicaSuperior2.0.exe" size="38912">
       <assemblyIdentity name="TP-MatematicaSuperior2.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+rMO+poymrgwj5BYruQmZKmM3hrAinotYi1NwRKucsY=</dsig:DigestValue>
+        <dsig:DigestValue>68D1Xdqfw1CQ2EFJJ/Rj03UrTY2uJWwaZYFau242m4A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="TP-MatematicaSuperior2.0.exe.config" size="189">
+  <file name="TP-MatematicaSuperior2.0.exe.config" size="184">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+      <dsig:DigestValue>FqWy0dfMmRS85zkU1NlW07p6LsNOPUHodvLiZcFdgJY=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

@@ -99,5 +99,12 @@ namespace TP_MatematicaSuperior2._0
             f4.Show();
             this.Hide();
         }
+
+        private void fasoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form5 f5 = new Form5();
+            f5.Show();
+            this.Hide();
+        }
     }
 }

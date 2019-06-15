@@ -72,3 +72,7 @@ C:\Users\lucas\Desktop\UTN\Mate Superior\TP-MatematicaSuperior2.0\obj\Debug\TP-M
 C:\Users\lucas\Desktop\UTN\Mate Superior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.exe
 C:\Users\lucas\Desktop\UTN\Mate Superior\TP-MatematicaSuperior2.0\obj\Debug\TP-MatematicaSuperior2.0.pdb
 C:\Users\lucas\Desktop\UTN\Mate Superior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Form4.resources
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Form2.resources
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Form3.resources
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Form4.resources
+C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Form5.resources

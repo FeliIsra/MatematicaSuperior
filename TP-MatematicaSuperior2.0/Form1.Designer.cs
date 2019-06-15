@@ -48,6 +48,7 @@
             this.polarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nCOMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.operacionesAvanzadasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fasoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -207,7 +208,8 @@
             this.binomialToolStripMenuItem,
             this.polarToolStripMenuItem,
             this.nCOMToolStripMenuItem,
-            this.operacionesAvanzadasToolStripMenuItem});
+            this.operacionesAvanzadasToolStripMenuItem,
+            this.fasoresToolStripMenuItem});
             this.modoDeCalcularToolStripMenuItem.Name = "modoDeCalcularToolStripMenuItem";
             this.modoDeCalcularToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.modoDeCalcularToolStripMenuItem.Text = "Modo de calcular";
@@ -238,6 +240,13 @@
             this.operacionesAvanzadasToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.operacionesAvanzadasToolStripMenuItem.Text = "Operaciones Avanzadas";
             this.operacionesAvanzadasToolStripMenuItem.Click += new System.EventHandler(this.OperacionesAvanzadasToolStripMenuItem_Click);
+            // 
+            // fasoresToolStripMenuItem
+            // 
+            this.fasoresToolStripMenuItem.Name = "fasoresToolStripMenuItem";
+            this.fasoresToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.fasoresToolStripMenuItem.Text = "Fasores";
+            this.fasoresToolStripMenuItem.Click += new System.EventHandler(this.fasoresToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -292,6 +301,7 @@
         private System.Windows.Forms.ToolStripMenuItem polarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nCOMToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem operacionesAvanzadasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fasoresToolStripMenuItem;
     }
 }
 

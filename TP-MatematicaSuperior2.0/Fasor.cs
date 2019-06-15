@@ -71,10 +71,12 @@ namespace TP_MatematicaSuperior2._0
                 unComplejo.polarToBinomial();
                 otroComplejo.polarToBinomial();
 
-                double amp = Math.Sqrt(Math.Pow(unFasor.getAmplitud(), 2) + Math.Pow(otroFasor.getAmplitud(), 2));
-                double arg = Math.Atan(unComplejo.getB() / otroComplejo.getB());
+                Complex suma = unComplejo.addComplex(otroComplejo);
+                /*double amp = Math.Sqrt(Math.Pow(unFasor.getAmplitud(), 2) + Math.Pow(otroFasor.getAmplitud(), 2));
+                double arg = Math.Atan(otroComplejo.getB() / unComplejo.getB());*/
+                suma.binomialToPolar();
 
-                return new Fasor(unFasor.tipo, amp, unFasor.frecuencia, arg);
+                return new Fasor(unFasor.getTipo(), suma.getModulo(), unFasor.getFrecuencia(), suma.getArgumento());
             } else
             {
                 if (unFasor.frecuencia == otroFasor.frecuencia && unFasor.tipo != otroFasor.tipo)

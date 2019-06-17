@@ -109,43 +109,21 @@ namespace TP_MatematicaSuperior2._0
             return new Complex(this.a + _complex.a, this.b + _complex.b);
         }
 
-        /**
-         * Resta al número complejo otro número complejo
-         * @param _complex Número complejo de la resta
-         * @return Objeto Complex
-         */
         public Complex substractComplex(Complex _complex)
         {
             return new Complex(this.a - _complex.a, this.b - _complex.b);
         }
 
-        /**
-         * Multiplica al número complejo otro número complejo
-         * @param _complex Número complejo de la multiplicación
-         * @return Objeto Complex
-         */
         public Complex multiplyComplex(Complex _complex)
         {
             return new Complex((this.a * _complex.a - this.b * _complex.b),
                     (this.a * _complex.b + this.b * _complex.a));
         }
-
-        /**
-         * Divide el número complejo actual entre el valor del parámetro
-         * @param _complex Denominador
-         * @return Objeto Complex
-         */
         public Complex divideComplex(Complex _complex)
         {
             return divideComplex(this, _complex);
         }
 
-        /**
-         * Divide dos números complejos
-         * @param _complex1 Numerador
-         * @param _complex2 Denominado
-         * @return Objeto Complex
-         */
         public Complex divideComplex(Complex _complex1, Complex _complex2)
         {
             double xx = (_complex1.a * _complex2.a + _complex1.b * _complex2.b) / (Math.Pow(_complex2.a, 2) + Math.Pow(_complex2.b, 2));
@@ -172,28 +150,16 @@ namespace TP_MatematicaSuperior2._0
             return new Complex(complex.a, -complex.b);
         }
 
-        /**
-         * Calcula el opuesto de un número complejo
-         * @return Objeto Complex
-         */
         public Complex opposite()
         {
             return opposite(this);
         }
 
-        /**
-         * Calcula el opuesto de un número complejo
-         * @param _complex Número complejo
-         * @return Objeto Complex
-         */
         public Complex opposite(Complex _complex)
         {
             return new Complex(-_complex.a, -_complex.b);
         }
-        /**
-         * Obtiene el conjugado de un número complejo
-         * @return Objeto Complex
-         */
+
         public Complex conjugate()
         {
             return conjugate(this);

@@ -121,17 +121,36 @@ namespace TP_MatematicaSuperior2._0
             this.Hide();
         }
 
-        private void PolarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form3 f3 = new Form3();
-            f3.Show();
-            this.Hide();
-        }
-
-        private void NCOMToolStripMenuItem_Click(object sender, EventArgs e)
+        private void EstructuraDeDatosYTransformacionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form1 f1 = new Form1();
             f1.Show();
+            this.Hide();
+        }
+
+        private void OperacionesBasicasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Operaciones_Basicas op_basicas = new Operaciones_Basicas();
+            op_basicas.Show();
+            this.Hide();
+        }
+
+        private void OperacionesAvanzadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FasoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form5 f5 = new Form5();
+            f5.Show();
+            this.Hide();
+        }
+
+        private void AyudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ayuda help = new Ayuda();
+            help.Show();
             this.Hide();
         }
     }

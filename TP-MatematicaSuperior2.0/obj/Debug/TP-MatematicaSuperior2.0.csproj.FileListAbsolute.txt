@@ -76,3 +76,6 @@ C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperi
 C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Form3.resources
 C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Form4.resources
 C:\Users\Ivan\Desktop\UTN\2019\Mat Sup\TP\MatematicaSuperior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Form5.resources
+C:\Users\lucas\Desktop\UTN\Mate Superior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Form5.resources
+C:\Users\lucas\Desktop\UTN\Mate Superior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Operaciones_Basicas.resources
+C:\Users\lucas\Desktop\UTN\Mate Superior\TP-MatematicaSuperior2.0\obj\Debug\TP_MatematicaSuperior2._0.Principal.resources

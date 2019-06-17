@@ -36,7 +36,7 @@ namespace TP_MatematicaSuperior2._0
                 Complex miNum = new Complex(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text));
                 miNum.binomialToPolar();
                 double arg = miNum.getArgumento() / Math.PI;
-                lbl_resultado.Text += "[    " + Math.Round(miNum.getModulo(),2).ToString() + " , " + Math.Round((arg),2).ToString() + " π" + "]";
+                lbl_resultado.Text = "Conversion: " +  "[    " + Math.Round(miNum.getModulo(),2).ToString() + " , " + Math.Round((arg),2).ToString() + " π" + "]";
             }
            // textBox1.Text = "";
            // textBox2.Text = "";
@@ -50,48 +50,14 @@ namespace TP_MatematicaSuperior2._0
             }
             else
             {
-                Complex miNum = new Complex(0,0);
+                Complex miNum = new Complex(0, 0);
                 miNum.setPolar(Convert.ToDouble(textBox3.Text), Convert.ToDouble(textBox4.Text));
                 miNum.polarToBinomial();
-                lbl_resultado.Text += Math.Round(miNum.getA(),2).ToString() + " + " + Math.Round(miNum.getB(),2).ToString() + " j";
+                lbl_resultado.Text = "Conversion: " + Math.Round(miNum.getA(),2).ToString() + " + " + Math.Round(miNum.getB(),2).ToString() + " j";
             }
         }
 
-        private void Label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox6_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-       
-
-        private void BinomialToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form2 f2 = new Form2();
-            f2.Show();
-            this.Hide();
-        }
-
-        private void PolarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form3 f3 = new Form3();
-            f3.Show();
-            this.Hide();
-        }
+     
 
         private void OperacionesAvanzadasToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -104,6 +70,25 @@ namespace TP_MatematicaSuperior2._0
         {
             Form5 f5 = new Form5();
             f5.Show();
+            this.Hide();
+        }
+
+        private void OperacionesBasicasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Operaciones_Basicas op_basicas = new Operaciones_Basicas();
+            op_basicas.Show();
+            this.Hide();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AyudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ayuda help = new Ayuda();
+            help.Show();
             this.Hide();
         }
     }

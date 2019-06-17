@@ -18,22 +18,7 @@ namespace TP_MatematicaSuperior2._0
             comboBox2.SelectedIndex = 0;
         }
 
-        private void BinomialToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void PolarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void OperacionesAvanzadasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void fasoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
@@ -114,6 +99,32 @@ namespace TP_MatematicaSuperior2._0
 
         }
 
+        private void EstructuraDeDatosYTransformacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+            this.Hide();
+        }
 
+        private void OperacionesBasicasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Operaciones_Basicas op_basicas = new Operaciones_Basicas();
+            op_basicas.Show();
+            this.Hide();
+        }
+
+        private void OperacionesAvanzadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 f4 = new Form4();
+            f4.Show();
+            this.Hide();
+        }
+
+        private void AyudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ayuda help = new Ayuda();
+            help.Show();
+            this.Hide();
+        }
     }
 }

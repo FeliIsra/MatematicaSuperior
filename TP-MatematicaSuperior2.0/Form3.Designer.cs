@@ -28,12 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.modoDeCalcularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.binomialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.polarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nCOMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.operacionesAvanzadasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnDividir = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -49,59 +43,15 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.btnRestar = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.modoDeCalcularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.estructuraDeDatosYTransformacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.operacionesBasicasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.operacionesAvanzadasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fasoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.modoDeCalcularToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(372, 24);
-            this.menuStrip1.TabIndex = 17;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // modoDeCalcularToolStripMenuItem
-            // 
-            this.modoDeCalcularToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.binomialToolStripMenuItem,
-            this.polarToolStripMenuItem,
-            this.nCOMToolStripMenuItem,
-            this.operacionesAvanzadasToolStripMenuItem});
-            this.modoDeCalcularToolStripMenuItem.Name = "modoDeCalcularToolStripMenuItem";
-            this.modoDeCalcularToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
-            this.modoDeCalcularToolStripMenuItem.Text = "Modo de calcular";
-           
-            // 
-            // binomialToolStripMenuItem
-            // 
-            this.binomialToolStripMenuItem.Name = "binomialToolStripMenuItem";
-            this.binomialToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.binomialToolStripMenuItem.Text = "Binomial";
-            this.binomialToolStripMenuItem.Click += new System.EventHandler(this.BinomialToolStripMenuItem_Click);
-            // 
-            // polarToolStripMenuItem
-            // 
-            this.polarToolStripMenuItem.Name = "polarToolStripMenuItem";
-            this.polarToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.polarToolStripMenuItem.Text = "Polar";
-            // 
-            // nCOMToolStripMenuItem
-            // 
-            this.nCOMToolStripMenuItem.Name = "nCOMToolStripMenuItem";
-            this.nCOMToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.nCOMToolStripMenuItem.Text = "NCOM";
-            this.nCOMToolStripMenuItem.Click += new System.EventHandler(this.NCOMToolStripMenuItem_Click);
-            // 
-            // operacionesAvanzadasToolStripMenuItem
-            // 
-            this.operacionesAvanzadasToolStripMenuItem.Name = "operacionesAvanzadasToolStripMenuItem";
-            this.operacionesAvanzadasToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.operacionesAvanzadasToolStripMenuItem.Text = "Operaciones Avanzadas";
-            this.operacionesAvanzadasToolStripMenuItem.Click += new System.EventHandler(this.OperacionesAvanzadasToolStripMenuItem_Click);
             // 
             // btnDividir
             // 
@@ -247,12 +197,72 @@
             this.btnRestar.UseVisualStyleBackColor = true;
             this.btnRestar.Click += new System.EventHandler(this.BtnRestar_Click_1);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.modoDeCalcularToolStripMenuItem,
+            this.ayudaToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(372, 24);
+            this.menuStrip1.TabIndex = 34;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // modoDeCalcularToolStripMenuItem
+            // 
+            this.modoDeCalcularToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.estructuraDeDatosYTransformacionesToolStripMenuItem,
+            this.operacionesBasicasToolStripMenuItem,
+            this.operacionesAvanzadasToolStripMenuItem,
+            this.fasoresToolStripMenuItem});
+            this.modoDeCalcularToolStripMenuItem.Name = "modoDeCalcularToolStripMenuItem";
+            this.modoDeCalcularToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
+            this.modoDeCalcularToolStripMenuItem.Text = "Modo de calcular";
+            // 
+            // estructuraDeDatosYTransformacionesToolStripMenuItem
+            // 
+            this.estructuraDeDatosYTransformacionesToolStripMenuItem.Name = "estructuraDeDatosYTransformacionesToolStripMenuItem";
+            this.estructuraDeDatosYTransformacionesToolStripMenuItem.Size = new System.Drawing.Size(279, 22);
+            this.estructuraDeDatosYTransformacionesToolStripMenuItem.Text = "Estructura de datos y transformaciones";
+            this.estructuraDeDatosYTransformacionesToolStripMenuItem.Click += new System.EventHandler(this.EstructuraDeDatosYTransformacionesToolStripMenuItem_Click);
+            // 
+            // operacionesBasicasToolStripMenuItem
+            // 
+            this.operacionesBasicasToolStripMenuItem.Name = "operacionesBasicasToolStripMenuItem";
+            this.operacionesBasicasToolStripMenuItem.Size = new System.Drawing.Size(279, 22);
+            this.operacionesBasicasToolStripMenuItem.Text = "Operaciones Basicas";
+            this.operacionesBasicasToolStripMenuItem.Click += new System.EventHandler(this.OperacionesBasicasToolStripMenuItem_Click);
+            // 
+            // operacionesAvanzadasToolStripMenuItem
+            // 
+            this.operacionesAvanzadasToolStripMenuItem.Name = "operacionesAvanzadasToolStripMenuItem";
+            this.operacionesAvanzadasToolStripMenuItem.Size = new System.Drawing.Size(279, 22);
+            this.operacionesAvanzadasToolStripMenuItem.Text = "Operaciones Avanzadas";
+            this.operacionesAvanzadasToolStripMenuItem.Click += new System.EventHandler(this.OperacionesAvanzadasToolStripMenuItem_Click_1);
+            // 
+            // fasoresToolStripMenuItem
+            // 
+            this.fasoresToolStripMenuItem.Name = "fasoresToolStripMenuItem";
+            this.fasoresToolStripMenuItem.Size = new System.Drawing.Size(279, 22);
+            this.fasoresToolStripMenuItem.Text = "Fasores";
+            this.fasoresToolStripMenuItem.Click += new System.EventHandler(this.FasoresToolStripMenuItem_Click);
+            // 
+            // ayudaToolStripMenuItem
+            // 
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 22);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.AyudaToolStripMenuItem_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(372, 178);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btnRestar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
@@ -268,10 +278,9 @@
             this.Controls.Add(this.txt3);
             this.Controls.Add(this.txt4);
             this.Controls.Add(this.txt1);
-            this.Controls.Add(this.menuStrip1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form3";
-            this.Text = "Polar";
+            this.Text = "OPERACIONES EN POLAR";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -280,11 +289,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem modoDeCalcularToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem binomialToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem polarToolStripMenuItem;
         private System.Windows.Forms.Button btnDividir;
         private System.Windows.Forms.Button btnMultiplicar;
         private System.Windows.Forms.Label label1;
@@ -293,14 +297,19 @@
         private System.Windows.Forms.TextBox txt3;
         private System.Windows.Forms.TextBox txt4;
         private System.Windows.Forms.TextBox txt1;
-        private System.Windows.Forms.ToolStripMenuItem nCOMToolStripMenuItem;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ToolStripMenuItem operacionesAvanzadasToolStripMenuItem;
         private System.Windows.Forms.Button btnRestar;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem modoDeCalcularToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem estructuraDeDatosYTransformacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem operacionesBasicasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem operacionesAvanzadasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fasoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
     }
 }

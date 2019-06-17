@@ -71,27 +71,39 @@ namespace TP_MatematicaSuperior2._0
             label1.Text = "[" + resp.getModulo() + " , " + resp.getArgumento() + "]";
         }
 
-        private void BinomialToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form2 f2 = new Form2();
-            f2.Show();
-            this.Hide();
-        }
-
-        private void NCOMToolStripMenuItem_Click(object sender, EventArgs e)
+        private void EstructuraDeDatosYTransformacionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form1 f1 = new Form1();
             f1.Show();
             this.Hide();
         }
 
-        private void OperacionesAvanzadasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void OperacionesBasicasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Operaciones_Basicas op_basicas = new Operaciones_Basicas();
+            op_basicas.Show();
+            this.Hide();
+        }
+
+        private void OperacionesAvanzadasToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             Form4 f4 = new Form4();
             f4.Show();
             this.Hide();
         }
 
-        
+        private void FasoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form5 f5 = new Form5();
+            f5.Show();
+            this.Hide();
+        }
+
+        private void AyudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ayuda help = new Ayuda();
+            help.Show();
+            this.Hide();
+        }
     }
 }
